@@ -1,12 +1,6 @@
-#include<stdio.h>
-/**
- * main-Entry point
- * 
- * Return:Always 0(Success)
- */
-int main(void)
-{
-	print("with proper grammar,but the outcome is a piece of art,\n");
-	return (0);
-}
+#include <stdio.h>
 
+int main() {
+    printf("Art is the lie that enables us to realize the truth,\n")
+     return 0;
+}	    
