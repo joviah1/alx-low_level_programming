@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(letters[i]);
 	}
-	putcha('\n');
+	putchar('\n');
 	return (0);
 }
 
