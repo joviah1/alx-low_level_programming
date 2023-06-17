@@ -3,10 +3,11 @@
 
 /**
  * main -  prints all possible different combinations of two digits.
- * Return: Always 0
+ * Return:c = Always 0
  */
 int main(void)
 {
+	int c;
 	int d = 0;
 
 	while (d < 10)
