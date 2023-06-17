@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - prints all possible different combinations of three digits.
@@ -40,5 +41,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
 
