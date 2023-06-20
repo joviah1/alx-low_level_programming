@@ -6,7 +6,7 @@
  */
 int _isalpha(int c)
 {
-	((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 	{
 		return (1);
 	}
@@ -14,5 +14,4 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-	_putchar('\n')
 }
