@@ -1,15 +1,23 @@
-#include "main.h"
+#include <stdio.h>
+#include <math.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main - prints the largest prime factor of the number 612852475143
+ * Return: Always 0
  */
-int main(void) {
-  print_triangle(2);
-  print_triangle(10);
-  print_triangle(1);
-  print_triangle(0);
-  return (0);
-}
+int main(void)
+{
+	long x, maxf;
+	long number = 612852475143;
+	double square = sqrt(number);
 
+	for (x = 1; x <= square; x++)
+	{
+		if (number % x == 0)
+		{
+			maxf = number / x;
+		}
+	}
+	printf("%ld\n", maxf);
+	return (0);
+}

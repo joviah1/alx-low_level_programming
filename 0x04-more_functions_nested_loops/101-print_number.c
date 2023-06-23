@@ -1,4 +1,3 @@
-101-print_number.c
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
