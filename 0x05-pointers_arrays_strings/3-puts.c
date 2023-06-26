@@ -5,13 +5,15 @@
  * @str: the string to print
  *
  * Return: void
- */
-void _puts(char *str) {
-  while (*str != '\0') {
-    putchar(*str);
-    str++;
-  }
+*/
 
-  putchar('\n');
+void _puts(char *str)
+{
+while (*str != '\0')
+{
+putchar(*str);
+str++;
+}
+putchar('\n');
 }
 
