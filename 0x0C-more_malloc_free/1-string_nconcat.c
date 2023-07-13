@@ -9,7 +9,7 @@
  *
  * Return: concatenated string (s1 + s2 up to n characters)
  */
-char *string_nconcat(const char *s1, const char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *str;
 	unsigned int i = 0, j = 0, k = 0, l = 0;
