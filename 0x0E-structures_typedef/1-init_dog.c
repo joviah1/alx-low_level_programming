@@ -10,7 +10,7 @@
  *
  * Return: None
  *
- * Description: This function initializes a struct dog with the provided values.
+ * Description: initializes a struct dog with the provided values.
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
