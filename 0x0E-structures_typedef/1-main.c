@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "dog.h"
 
-void init_dog(struct dog *d, const char *name, float age, const char *owner);
-
 /**
  * main - check the code
  *
