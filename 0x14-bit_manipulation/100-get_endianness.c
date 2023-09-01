@@ -8,24 +8,8 @@
  */
 int get_endianness(void)
 {
-        unsigned int num = 0x01020304;
+	unsigned int num = 1;
+	char *byte = (char *)&num;
 
-        unsigned char *ptr = (unsigned char *)&num;
-
-        return (*ptr == 1 ? 1 : 0);
-}
-int main(void)
-{
-        int n;
-
-        n = get_endianness();
-        if (n != 0)
-        {
-                printf("Little Endian\n");
-        }
-        else
-        {
-                printf("Big Endian\n");
-        }
-        return (0);
+	return (*byte == 1 ? 1 : 0);
 }
