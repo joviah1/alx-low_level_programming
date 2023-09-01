@@ -7,22 +7,8 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int p = 1UL << (sizeof(unsigned long int) * 8 - 1);
-	int i = 0;
+	if (n > 1)
+		print_binary(n >> 1);
 
-	while (p > 0)
-	{
-		if (n & p)
-		{
-			putchar('1');
-			i = 1;
-		}
-		else if (i || p == 1)
-		{
-			putchar('0');
-		}
-		p >>= 1;
-	}
-	putchar('\n');
+	putchar((n & 1) ? '1' : '0');
 }
-
